@@ -1,0 +1,14 @@
+{
+  "dx12_ultimate": true,
+  "dxr_tier": 12,
+  "mesh_shader_tier": 10,
+  "omm_ser_integrated": false,
+  "opacity_micromaps_supported": true,
+  "sampler_feedback_tier": 90,
+  "ser_actually_reorders": true,
+  "ser_shader_supported": true,
+  "shader_model": "6.9",
+  "tiled_resources_tier": 4,
+  "vrs_tier": 2,
+  "vrs_tile_size": 16
+}

@@ -1,0 +1,81 @@
+{
+  "cpu": "AMD64 Family 25 Model 97 Stepping 2, AuthenticAMD",
+  "rustc": "rustc 1.99.0 (b940084d7 2026-09-28)",
+  "steps_per_repeat": 180,
+  "repeats": 3,
+  "note": "Separate sequential builds; timing noise and backend-dependent floating-point trajectories affect ratios.",
+  "cases": [
+    {
+      "case": "sparse",
+      "bodies": 256,
+      "simd_mean_ms": 0.007511481481481518,
+      "scalar_mean_ms": 0.0094566666666667,
+      "scalar_over_simd_mean": 1.2589615896652022,
+      "simd_p95_ms": 0.0073,
+      "scalar_p95_ms": 0.0115
+    },
+    {
+      "case": "sparse",
+      "bodies": 1024,
+      "simd_mean_ms": 0.044616296296296265,
+      "scalar_mean_ms": 0.052336111111111236,
+      "scalar_over_simd_mean": 1.173026796387306,
+      "simd_p95_ms": 0.0526,
+      "scalar_p95_ms": 0.06470000000000001
+    },
+    {
+      "case": "sparse",
+      "bodies": 4096,
+      "simd_mean_ms": 0.4451020370370372,
+      "scalar_mean_ms": 0.4993629629629633,
+      "scalar_over_simd_mean": 1.1219067121937503,
+      "simd_p95_ms": 0.6355,
+      "scalar_p95_ms": 0.5817
+    },
+    {
+      "case": "dense",
+      "bodies": 128,
+      "simd_mean_ms": 0.21509444444444467,
+      "scalar_mean_ms": 0.2956470370370371,
+      "scalar_over_simd_mean": 1.3744987128823676,
+      "simd_p95_ms": 0.24879999999999997,
+      "scalar_p95_ms": 0.3317
+    },
+    {
+      "case": "dense",
+      "bodies": 512,
+      "simd_mean_ms": 0.8801494444444445,
+      "scalar_mean_ms": 1.1700787037037024,
+      "scalar_over_simd_mean": 1.3294091260175287,
+      "simd_p95_ms": 1.0345,
+      "scalar_p95_ms": 1.3006
+    },
+    {
+      "case": "dense",
+      "bodies": 2048,
+      "simd_mean_ms": 3.6993359259259266,
+      "scalar_mean_ms": 5.000550370370369,
+      "scalar_over_simd_mean": 1.3517427101781123,
+      "simd_p95_ms": 4.0717,
+      "scalar_p95_ms": 5.3822
+    },
+    {
+      "case": "sleeping",
+      "bodies": 512,
+      "simd_mean_ms": 0.0129788888888889,
+      "scalar_mean_ms": 0.011866851851851871,
+      "scalar_over_simd_mean": 0.9143195502668159,
+      "simd_p95_ms": 0.0134,
+      "scalar_p95_ms": 0.0123
+    },
+    {
+      "case": "motion",
+      "bodies": 128,
+      "simd_mean_ms": 0.04424333333333339,
+      "scalar_mean_ms": 0.05138074074074079,
+      "scalar_over_simd_mean": 1.1613216471198837,
+      "simd_p95_ms": 0.054799999999999995,
+      "scalar_p95_ms": 0.0576
+    }
+  ]
+}

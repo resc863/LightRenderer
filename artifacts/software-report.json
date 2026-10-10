@@ -1,0 +1,41 @@
+{
+  "adapter": "NVIDIA GeForce RTX 4080",
+  "animation_seconds": 1.1666662693023682,
+  "backend": "DirectX 12 compute software ray tracing",
+  "capabilities": {
+    "dx12_ultimate": true,
+    "dxr_tier": 12,
+    "mesh_shader_tier": 10,
+    "omm_ser_integrated": false,
+    "opacity_micromaps_supported": true,
+    "sampler_feedback_tier": 90,
+    "ser_actually_reorders": true,
+    "ser_shader_supported": true,
+    "shader_model": "6.9",
+    "tiled_resources_tier": 4,
+    "vrs_tier": 2,
+    "vrs_tile_size": 16
+  },
+  "debug_layer": true,
+  "final_camera": [
+    -2.7720746994018555,
+    3.614865779876709,
+    -9.856324195861816
+  ],
+  "frames": 75,
+  "gpu_warnings_and_errors": [],
+  "initial_camera": [
+    -2.7720746994018555,
+    3.614865779876709,
+    -9.856324195861816
+  ],
+  "primitives": 206,
+  "resize_exercised": true,
+  "resolution": [
+    1040,
+    681
+  ],
+  "scripted_input": true,
+  "seconds": 0.5125021,
+  "ultimate": null
+}

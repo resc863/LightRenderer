@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-10",
+  "external_packages_added": 0,
+  "fluid_solver_tests": 17,
+  "fluid_demo_tests": 1,
+  "total_tests_per_math_backend": 40,
+  "math_backends_tested": [
+    "simd",
+    "scalar"
+  ],
+  "clippy": "passed all targets and features",
+  "smoke": [
+    {
+      "mode": "ultimate",
+      "frames": 180,
+      "gpu_warnings": 0,
+      "particles": 216,
+      "ticks": 350,
+      "fluid_cpu_ms": 1.321,
+      "mass": 110.59200525283813,
+      "max_compression": 2.0265579223632812E-06,
+      "motion_limit_hits": 0,
+      "speed_limit_hits": 0
+    },
+    {
+      "mode": "raytracing",
+      "frames": 180,
+      "gpu_warnings": 0,
+      "particles": 216,
+      "ticks": 350,
+      "fluid_cpu_ms": 1.1997,
+      "mass": 110.59200525283813,
+      "max_compression": 2.0265579223632812E-06,
+      "motion_limit_hits": 0,
+      "speed_limit_hits": 0
+    },
+    {
+      "mode": "software",
+      "frames": 180,
+      "gpu_warnings": 0,
+      "particles": 216,
+      "ticks": 350,
+      "fluid_cpu_ms": 1.1993,
+      "mass": 110.59200525283813,
+      "max_compression": 2.0265579223632812E-06,
+      "motion_limit_hits": 0,
+      "speed_limit_hits": 0
+    }
+  ],
+  "benchmarks": "fluid-bench-comparison.json",
+  "coupling": "one-way rigid boundaries"
+}

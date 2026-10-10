@@ -1,0 +1,77 @@
+# Rust build output. Cargo.lock is committed for reproducible application builds.
+/target/
+**/*.rs.bk
+
+# Downloaded SDKs, local winapp state, and generated packages.
+/.sdk/
+/.winapp/
+/dist/
+*.msix
+*.msixbundle
+*.appx
+*.appxbundle
+*.appxsym
+
+# Runtime virtual-texture cache (both spellings for case-sensitive checkouts).
+/Assets/vt-cache/
+/assets/vt-cache/
+
+# Generated captures, logs, and reports. Keep only the documentation snapshots
+# explicitly listed below; new runtime outputs stay untracked.
+/artifacts/*
+!/artifacts/ultimate.png
+!/artifacts/fluid-ultimate.png
+!/artifacts/physics-ultimate.png
+!/artifacts/ultimate-fine-fullscreen.png
+!/artifacts/capabilities.json
+!/artifacts/ultimate-report.json
+!/artifacts/dxr-report.json
+!/artifacts/software-report.json
+!/artifacts/ultimate-disabled-report.json
+!/artifacts/interactive-report.json
+!/artifacts/streaming-stress-report.json
+!/artifacts/physics-bench-simd.json
+!/artifacts/physics-bench-scalar.json
+!/artifacts/physics-bench-comparison.json
+!/artifacts/physics-ultimate-report.json
+!/artifacts/physics-raytracing-report.json
+!/artifacts/physics-software-report.json
+!/artifacts/physics-disabled-report.json
+!/artifacts/fluid-bench-simd.json
+!/artifacts/fluid-bench-scalar.json
+!/artifacts/fluid-bench-comparison.json
+!/artifacts/fluid-ultimate-report.json
+!/artifacts/fluid-raytracing-report.json
+!/artifacts/fluid-software-report.json
+!/artifacts/fluid-validation.json
+*.log
+*.dmp
+
+# Local secrets and signing material. Safe example env files may be committed.
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pfx
+*.p12
+*.pem
+*.key
+*.cer
+*.crt
+/secrets/
+/credentials/
+
+# Per-user IDE settings and scratch files.
+/.vs/
+/.idea/
+/.vscode/
+*.user
+*.suo
+*.swp
+*.swo
+*~
+
+# Windows/macOS metadata.
+Thumbs.db
+Desktop.ini
+.DS_Store

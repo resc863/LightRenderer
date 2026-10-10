@@ -1,0 +1,54 @@
+{
+  "cpu": "AMD64 Family 25 Model 97 Stepping 2, AuthenticAMD",
+  "rustc": "rustc 1.99.0 (b940084d7 2026-09-28)",
+  "steps_per_repeat": 120,
+  "repeats": 3,
+  "note": "CPU-only sequential builds; floating-point trajectories and timing noise may differ.",
+  "cases": [
+    {
+      "case": "sparse",
+      "particles": 512,
+      "simd_mean_ms": 0.2726261111111111,
+      "simd_p95_ms": 0.3722,
+      "scalar_mean_ms": 0.270438611111111,
+      "scalar_p95_ms": 0.3347,
+      "scalar_over_simd_mean": 0.9919761904276712
+    },
+    {
+      "case": "dam-break",
+      "particles": 216,
+      "simd_mean_ms": 0.36912888888888884,
+      "simd_p95_ms": 1.1023,
+      "scalar_mean_ms": 0.33916111111111114,
+      "scalar_p95_ms": 0.9715,
+      "scalar_over_simd_mean": 0.9188148674356444
+    },
+    {
+      "case": "dam-break",
+      "particles": 512,
+      "simd_mean_ms": 2.1819205555555543,
+      "simd_p95_ms": 3.098,
+      "scalar_mean_ms": 2.1698811111111094,
+      "scalar_p95_ms": 3.0932,
+      "scalar_over_simd_mean": 0.9944821801995538
+    },
+    {
+      "case": "dam-break",
+      "particles": 1024,
+      "simd_mean_ms": 6.298003055555559,
+      "simd_p95_ms": 9.8614,
+      "scalar_mean_ms": 6.335990277777785,
+      "scalar_p95_ms": 10.14,
+      "scalar_over_simd_mean": 1.0060316296907346
+    },
+    {
+      "case": "viscous",
+      "particles": 512,
+      "simd_mean_ms": 2.2185694444444435,
+      "simd_p95_ms": 3.0575,
+      "scalar_mean_ms": 2.249969166666666,
+      "scalar_p95_ms": 3.1156,
+      "scalar_over_simd_mean": 1.0141531392225973
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "adapter": "NVIDIA GeForce RTX 4080",
+  "animation_seconds": 3.916663646697998,
+  "backend": "DX12 Ultimate Mesh Shader + inline DXR",
+  "capabilities": {
+    "dx12_ultimate": true,
+    "dxr_tier": 12,
+    "mesh_shader_tier": 10,
+    "omm_ser_integrated": false,
+    "opacity_micromaps_supported": true,
+    "sampler_feedback_tier": 90,
+    "ser_actually_reorders": true,
+    "ser_shader_supported": true,
+    "shader_model": "6.9",
+    "tiled_resources_tier": 4,
+    "vrs_tier": 2,
+    "vrs_tile_size": 16
+  },
+  "debug_layer": true,
+  "final_camera": [
+    -2.7720746994018555,
+    3.614865779876709,
+    -9.856324195861816
+  ],
+  "frames": 240,
+  "gpu_warnings_and_errors": [],
+  "initial_camera": [
+    -2.7720746994018555,
+    3.614865779876709,
+    -9.856324195861816
+  ],
+  "primitives": 206,
+  "resize_exercised": true,
+  "resolution": [
+    1040,
+    681
+  ],
+  "scripted_input": true,
+  "seconds": 1.5629005,
+  "ultimate": {
+    "enabled": true,
+    "geometry_source": "screen-error-driven parametric patches generated in Mesh Shader; no prebuilt LOD levels",
+    "max_triangles": 445876,
+    "mesh_patches": 2652,
+    "mesh_shader_frames": 235,
+    "min_triangles": 65628,
+    "screen_error_pixels": 0.6499999761581421,
+    "shader_model": "6.9",
+    "texture_streaming": {
+      "cache": "assets/vt-cache",
+      "enabled": true,
+      "evicted_pages": 43,
+      "hardware_feedback_requests": 46353,
+      "pending_pages": 0,
+      "physical_pool_bytes": 4194304,
+      "resident_bytes": 4194304,
+      "resident_pages": 63,
+      "source": "procedural material pages generated asynchronously and cached on disk",
+      "tile_bytes": 65536,
+      "uploaded_pages": 106,
+      "virtual_bytes": 1431655765,
+      "virtual_texture_size": [
+        16384,
+        16384
+      ]
+    },
+    "triangles": 187992,
+    "vrs_enabled": true,
+    "vrs_frames": 232
+  }
+}
